@@ -1,0 +1,50 @@
+.logincontainer{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.logincontainer >h1{
+font-size: 2em;
+text-transform: uppercase;
+
+text-decoration: underline;
+font-style: italic;
+}
+.logincontainer > form{
+display: flex;
+flex-direction: column;
+gap:  1em;
+border: 0px solid rgb(222, 214, 214);
+ padding: 1em;
+border-radius: 7px;
+min-width: 25%;
+max-width: 35%; 
+box-shadow: 0px 0px 25px rgb(188, 182, 182);
+overflow: hidden;
+}
+.logincontainer >label{
+
+font-weight: bold;
+}
+.logincontainer > form >input  {
+text-decoration-line: none;
+outline:none;
+border: 1px solid;
+padding: 15px 20px ;
+font-size: large;
+font-weight: bold;
+
+}
+.logincontainer > form > button{
+    padding: 15px 20px;
+    background-color:blue;
+    font-size: large;
+    border-radius: 7px;
+    color: white;
+text-transform: uppercase;
+outline: none;
+border: 1px;
+}
